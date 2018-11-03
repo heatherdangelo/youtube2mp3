@@ -1,13 +1,24 @@
 # youtube2mp3
 converts youtube video urls to mp3 files
 
-## setup
+## install
+```
+npm install -g youtube2mp3
+```
+
+## usage
+
+```
+youtube2mp3 --url="<YOUTUBE URL>"
+```
+
+## development
 > install [nvm](https://github.com/creationix/nvm) and [homebrew](https://brew.sh/)
 
 1. ```nvm use v8.10```
 2. ```brew install ffmpeg```
 3. ```npm install```
 
-## usage
+### testing
 
-```node index.js --url="<YOUTUBE URL>"```
+Point ```youtube2mp3``` to local source, run ```npm link```.
